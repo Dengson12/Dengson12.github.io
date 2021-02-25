@@ -17,8 +17,11 @@ h1 {
   color: #bdc3c7;
   font-size: 60px;
   letter-spacing: -2px;
+  text-shadow: 7px 7px 20px #DAD
 }
-
+h1:hover{
+  text-shadow: none;
+}
 /* TERMINAL */
 #terminal {
   background-color: black;
@@ -165,7 +168,28 @@ h1 {
   }
 }
 
+/* terminal body contact me */
+button{
+  /* buttonPositionWithinTerminal */
+  /* width: 20%; */
+  /* position: relative; */
+  /* left: 38%; */
+  background-color: black;
+  border: none;
+  border-radius: 15px;
+}
+button a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
 
+button:hover{
+  background-color: rgb(212, 212, 93);
+  transition: 2s;
+  border:1px solid rgb(212, 212, 93);
+  border-radius: 15px;
+}
 
 /* designs plans */
  
