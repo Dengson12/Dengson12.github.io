@@ -186,9 +186,14 @@ button a {
 
 button:hover{
   background-color: rgb(212, 212, 93);
-  transition: 2s;
+  transition: .9s;
   border:1px solid rgb(212, 212, 93);
   border-radius: 15px;
+}
+
+button a:hover{
+  color: black;
+  transition:.9s;
 }
 
 /* designs plans */
