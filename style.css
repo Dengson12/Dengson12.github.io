@@ -1,11 +1,17 @@
 .myPhoto img {
   height: 100px;
   width: 100px;
-  border-radius: 100px;
+  border-radius: 50%;
   margin: 35px;
+
+  /* centeringImage */
+  position: relative;
+  top: auto;
+  left:45%;
 }
 
 h1 {
+  font-family: Arial, Helvetica, sans-serif;
   padding: 50px 0;
   text-align: center;
   color: #bdc3c7;
@@ -85,6 +91,7 @@ h1 {
   animation: 1s blink step-end infinite;
   /* animation-name: blink; */
 }
+
 /* 
 @keyframes blink{
     from, to{background: 0 0;}
@@ -161,20 +168,14 @@ h1 {
 
 
 /* designs plans */
-
-.picture img {
-  /* position: absolute; */
-  /* top: 50px; */
-  /* margin: 20px; */
-
-}
-
+ 
 body {
   /* background: rgb(241, 239, 235) !important; */
-  background-image: url("/img/savannah_kit8-net.png");
-  background-size: cover;
-  /* background: rgb(27, 26, 26 ) !important; */
+  /* background-image: url("/img/savannah_kit8-net.png"); */
   /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  background: rgb(27, 26, 26) !important;
+  
 }
 
 .terminal-body .command1 {
@@ -266,12 +267,22 @@ button:hover {
 
 
 /* css animation */
-.slide-in-down {animation: slide-in-down 1s; }
-
-@keyframes slide-in-down {
-  0% {transform: translateY(-100%); opacity:0;}
-  50% {opacity:0;}
-  100% {transform: translateY(0%); opacity:1;}
+.slide-in-down {
+  animation: slide-in-down 1s;
 }
 
+@keyframes slide-in-down {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
 
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
