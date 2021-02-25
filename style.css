@@ -6,7 +6,7 @@
 }
 
 h1 {
-  /* padding: 50px 0; */
+  padding: 50px 0;
   text-align: center;
   color: #bdc3c7;
   font-size: 60px;
@@ -16,9 +16,8 @@ h1 {
 /* TERMINAL */
 #terminal {
   background-color: black;
-  /* height: 50vh; */
-  /* max-width: 75%; */
-  /* max-width: 90%; */
+  max-width: 75%;
+  max-width: 90%;
   margin: 0 auto;
   transition: .4s;
   box-shadow: 0px 5px 4px rgb(85, 80, 80);
@@ -86,8 +85,8 @@ h1 {
   animation: 1s blink step-end infinite;
   /* animation-name: blink; */
 }
-
-/* @keyframes blink{
+/* 
+@keyframes blink{
     from, to{background: 0 0;}
     
     
@@ -159,21 +158,6 @@ h1 {
   }
 }
 
-.text-center {
-  margin-top: 40px;
-
-}
-
-footer a {
-  color: rgb(55, 81, 160);
-
-}
-
-footer a:hover {
-  text-decoration: none;
-
-}
-
 
 
 /* designs plans */
@@ -206,6 +190,8 @@ body {
 
 #terminal {
   /* background-image: url("/img/savannah_kit8-net.png"); */
+  /* background-size:auto; */
+  /* background-repeat:no-repeat; */
 }
 
 /* 
