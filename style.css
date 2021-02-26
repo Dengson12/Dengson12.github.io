@@ -4,10 +4,10 @@
   border-radius: 50%;
   margin: 35px;
 
-  /* centeringImage */
+  /* Profile Picture/image */
   position: relative;
   top: auto;
-  left:45%;
+  left:38%;
 }
 
 h1 {
@@ -22,10 +22,17 @@ h1 {
 h1:hover{
   text-shadow: none;
 }
+
+
+.centered_img_div{
+  width: 100%;
+  margin: 0 auto;
+}
+
+
 /* TERMINAL */
 #terminal {
   background-color: black;
-  max-width: 75%;
   max-width: 90%;
   margin: 0 auto;
   transition: .4s;
