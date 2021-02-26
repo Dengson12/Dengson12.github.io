@@ -29,6 +29,27 @@ h1:hover{
   margin: 0 auto;
 }
 
+/* social-links */
+.social-links ul li  {
+  list-style: none;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.social-links ul li a{
+  font-size: 20px;
+}
+
+.social-links .fa-twitter {
+  color: #1DA1F2;
+}
+.social-links .fa-github {
+  color: white;
+}
+.social-links fa-linkedin {
+  color: #1DA1F2;
+}
+
 
 /* TERMINAL */
 #terminal {
@@ -201,6 +222,7 @@ button:hover{
 button a:hover{
   color: black;
   transition:.9s;
+  text-decoration: none;
 }
 
 /* designs plans */
