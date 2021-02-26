@@ -1,27 +1,23 @@
-/* @media only screen and (max-width:10224){
-    .myPhoto
-    {
+@media only screen and (max-width:480px){
+    .myPhoto img {
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        margin: 35px;
+      
+        /* Profile Picture/image */
         position: relative;
-        top: 50%;
-        transform: translateY(15%);
-        background-color: black;
-    }
+        top: auto;
+        left:9%;
+      }
 
-    #terminal{
-        width: 90%;
-    }
+    .centered_img_div h1{
+          font-size: 2em !important;
+          padding: 30px 0;
+          letter-spacing: normal;
+      }
 
-} */
- 
- @media only screen and (max-width:320){
-    #terminal{
-        max-width: 90%;
-        height: 50vh;
-        margin-bottom: 20px;
-
-    }
-
-    h1{
-        font-size: 1em;
-    }
+      #terminal {
+          max-width: 100%;
+      }
 }
